@@ -38,3 +38,7 @@ git push
 puch local file to website.
 
 git branch branch_a
+add a new branch branch_a
+
+git checkout adb3238
+divide a new branch from commit number "adb3238...."(unless 6 number)
