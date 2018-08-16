@@ -1,3 +1,6 @@
+git config --list
+check your Git username and email
+
 git clone   
 clone下來別人的專案到local端
  
@@ -22,17 +25,11 @@ git status
 git log
 查看目前所有commit的歷史紀錄
 
-git log 
-列出所有commit的歷史紀錄
- 
 git diff 
 比較文件或commit間修改的差異
  
 git show 
 詳細列出該次commit的修改內容
- 
-git status 
-列出目前的檔案狀態
 
 git push
 puch local file to website.
@@ -42,3 +39,12 @@ add a new branch branch_a
 
 git checkout adb3238
 divide a new branch from commit number "adb3238...."(unless 6 number)
+
+git checkout branch_a 
+change to branch_a
+
+git branch -a
+check all branch
+
+git branch -d branch_a
+delet branch_a
